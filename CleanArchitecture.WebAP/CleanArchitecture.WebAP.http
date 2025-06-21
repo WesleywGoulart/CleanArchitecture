@@ -1,0 +1,6 @@
+@CleanArchitecture.WebAP_HostAddress = http://localhost:5226
+
+GET {{CleanArchitecture.WebAP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
