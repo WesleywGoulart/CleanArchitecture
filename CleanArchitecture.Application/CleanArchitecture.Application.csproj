@@ -14,10 +14,16 @@
     <Folder Include="Services\" />
     <Folder Include="Shared\Behavior\" />
     <Folder Include="Shared\Exceptions\" />
-    <Folder Include="UseCases\CreateUser\" />
-    <Folder Include="UseCases\GetAllUser\" />
-    <Folder Include="UseCases\DeleteUser\" />
-    <Folder Include="UseCases\UpdateUser\" />
+    <Folder Include="UseCases\User\GetAllUser\" />
+    <Folder Include="UseCases\User\DeleteUser\" />
+    <Folder Include="UseCases\User\UpdateUser\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.6" />
   </ItemGroup>
 
 </Project>
